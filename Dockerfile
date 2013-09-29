@@ -21,8 +21,6 @@ FROM ubuntu:12.10
 MAINTAINER Roberto G. Hashioka "roberto_hashioka@hotmail.com"
 
 
-op / Dockerfile
-
 RUN echo "deb http://mirrors.163.com/ubuntu/ quantal main restricted universe multiverse" > /etc/apt/sources.list
 RUN echo "deb http://mirrors.163.com/ubuntu/ quantal-security main restricted universe multiverse" >> /etc/apt/sources.list
 RUN echo "deb http://mirrors.163.com/ubuntu/ quantal-updates main restricted universe multiverse" >> /etc/apt/sources.list
